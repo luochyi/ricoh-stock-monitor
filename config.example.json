@@ -1,0 +1,26 @@
+{
+  "interval_seconds": 60,
+  "notify_initial_available": true,
+  "state_file": "state.json",
+  "source": {
+    "url": "",
+    "method": "GET",
+    "body": null,
+    "headers_env": {},
+    "complete_inventory_confirmed": false,
+    "success": {
+      "path": "code",
+      "equals": 0
+    },
+    "items_path": "data.items",
+    "fields": {
+      "id": "sku",
+      "name": "title",
+      "stock": "qty",
+      "url": "url"
+    },
+    "stock_mode": "quantity",
+    "allow_empty": false,
+    "include_ids": []
+  }
+}

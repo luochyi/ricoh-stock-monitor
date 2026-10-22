@@ -1,0 +1,24 @@
+{
+  "interval_seconds": 30,
+  "notify_initial_available": true,
+  "notification_policy": {
+    "mute_plain_gr4": true
+  },
+  "state_file": "ricoh-gr-iiix-state.json",
+  "source": {
+    "mode": "ricoh_refurbished_list",
+    "url": "https://shop.ricn-mall.com/app-api/product/products?couponId=&keyword=&limit=100&news=&page=1&sid=9&type=",
+    "method": "GET",
+    "complete_inventory_confirmed": true,
+    "headers_env": {},
+    "scope": "all"
+  },
+  "purchase_rule": "gr_iiix_or_hdf",
+  "favorites": {
+    "enabled": true,
+    "sync_seconds": 300,
+    "pinned_product_ids": [
+      130
+    ]
+  }
+}

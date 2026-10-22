@@ -1,0 +1,23 @@
+# 本地凭证、抓包和运行状态不进入版本库
+private/
+.env
+.env.*
+*.har
+*.pem
+*.key
+*.p12
+*.pfx
+*-state.json
+*-state.json.*
+favorite-products.json
+purchase-notices.json
+*.lock
+logs/
+*.log
+*.log.*
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+com.fst.ricoh-stock-monitor.plist
